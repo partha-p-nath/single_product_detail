@@ -1,0 +1,160 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Single Product Detail</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/umd/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body bg-white py-0 pr-0">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="py-3">
+                                    <div class="shadow-sm mr-3" style="border:1px solid #cccccc;border-radius:0.25rem;">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="img-fluid p-3" src="https://s3-ap-southeast-1.amazonaws.com/rokomari110/ProductNew20190903/260X372/d499a6875_57159.jpg" alt="দ্য বন্ডম্যান, নীল অন্ধকার ও দি অ্যামফিবিয়ান ম্যান">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="py-3">
+                                    <div class="details-book-main-info__header">
+                                        <h4>দ্য বন্ডম্যান, নীল অন্ধকার ও দি অ্যামফিবিয়ান ম্যান <span>(পেপারব্যাক)</span></h4>
+                                        <div class="sub-title"> <p>৩টি বই একত্রে</p> </div>
+                                    </div>
+                                    <div class="details-book-main-info__content">
+                                        <p class="details-book-info__content-author">
+                                            <span class="pr-1">by</span>
+                                            <a href="/book/author/5372"> কাজী মায়মুর হোসেন </a>
+                                        </p>
+                                        <div class="details-book-info__content-category d-flex align-items-center">
+                                            <span class="pr-1 font-weight-bold">Category: </span>
+                                            <a href="/book/category/445" class="ml-2"> অনুবাদ: শিশু-কিশোর </a>
+                                        </div>
+                                        <div class="details-book-info__content-quantity d-none">
+                                            <button class="btn js-minus-btn">
+                                                <i class="ion-ios-minus-empty"></i>
+                                            </button>
+                                            <input type="text" class="form-control js-quantity-input" value="1" id="js--details-quantity" readonly="">
+                                            <button class="btn js-plus-btn">
+                                                <i class="ion-ios-plus-empty"></i>
+                                            </button>
+                                        </div>
+
+                                        <div class="details-book-info__content-rating"> 1 Reviews </div>
+
+                                        <div class="details-book-info__content-book-price">
+                                            <p class="price__strike-through">
+                                                <strike class="original-price text-secondary"> TK. 86 </strike>
+                                            </p>
+                                            <p>
+                                                <span class="sell-price text-dark">TK. 77</span>
+                                                <span class="price-off">
+                                                    <span class="js--save-message">You Save TK. 9</span> (10%)
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="ebook-wrapper">
+                                            <button type="button" class="btn shadow-sm" style="border: 1px solid rgb(0, 123, 255);">
+                                                <i class="fa fa-book" style="color:rgb(0, 123, 255);"> </i>
+                                                <a class="text-decoration-none" href="#"> Request for eBook </a>
+                                            </button>
+                                        </div>
+
+                                        <div class="d-flex"> </div>
+                                    </div>
+                                    <div class="details-btn">
+                                        <div class="row no-gutters">
+                                            <div class="col">
+                                                <button class="btn btn-outline-success shadow-sm m-1"> একটু পড়ে দেখুন </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="share-info">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="details-book-info__wishlist">
+                                                <div class="wishlist-dropdown">
+                                                    <a id="js--save-to-booklist" class="btn text-secondary shadow-sm">
+                                                        <i class="fa fa-heart-o mr-2"></i> Add to Booklist
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex share-link">
+                                                <div class="dropdown">
+                                                    <button id="dropdownMenuButton" type="button" class="btn text-secondary shadow-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="fa fa-share-alt mr-2"></i> <span>Share This Book</span>
+                                                    </button>
+                                                    <div class="dropdown-menu text-center p-0" aria-labelledby="dropdownMenuButton">
+                                                        <a href="" class="dropdown-item alert-primary" data-js="facebook-share">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                        <a href="" class="dropdown-item alert-success" data-js="twitter-share">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                        <a href="" class="dropdown-item alert-secondary" data-js="linkedin-share">
+                                                            <i class="fa fa-linkedin"></i>
+                                                        </a>
+                                                        <a href="" class="dropdown-item alert-info" data-js="instagram-share">
+                                                            <i class="fa fa-instagram"></i>
+                                                        </a>
+                                                        <a href="" class="dropdown-item alert-warning" data-js="pinterest-share">
+                                                            <i class="fa fa-pinterest"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 alert-secondary">
+                                <div class="py-3">
+                                    <div class="mr-md-3">
+                                        <div class="text-secondary" style="border-bottom:1px solid #b5b9bd!important;">
+                                            <div class="d-flex mt-3">
+                                                <i class="fa fa-money"></i>
+                                                <p class="text-capitalize ml-3">Cash on delivery</p>
+                                            </div>
+                                            <div class="d-flex mt-4">
+                                                <i class="fa fa-rotate-left"></i>
+                                                <p class="text-capitalize ml-3">3 days happy return</p>
+                                            </div>
+                                            <div class="d-flex mt-4">
+                                                <i class="fa fa-paypal"></i>
+                                                <p class="text-capitalize ml-3">
+                                                    Delivery Charge Tk. 50(Online order)
+                                                    <a href="#" class="btn btn-link details-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="যে কোন পরিমাণ পণ্য অর্ডার করলেই সারাদেশে আমাদের ডেলিভারি চার্জ অনলাইন অর্ডারে 50(Online order) টাকা ও ফোন অর্ডারে 70(Phone order) টাকা।"><span class="ion-ios-information-outline"></span></a>
+                                                </p>
+                                            </div>
+                                            <div class="d-flex info">
+                                                <i class="fa fa-buysellads"></i>
+                                                <p class="text-capitalize ml-3">
+                                                    Purchase &amp; Earn
+                                                    <a href="#" class="btn btn-link details-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="প্রতি সফল কেনাকাটায় রেজিস্টার্ড ইউজার পাচ্ছেন পয়েন্টস। পয়েন্টস ওয়ালেট এ জমা করে  কিনতে পারছেন যে কোনো পণ্য।"><span class="ion-ios-information-outline"></span></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
